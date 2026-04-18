@@ -1,9 +1,0 @@
-Package: com.yourname.battlecatsmod
-Name: Battle Cats Hack
-Depends: mobilesubstrate
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Description: My First Battle Cats Mod
-Maintainer: gameskurikuri
-Author: gameskurikuri
-Section: Tweaks
