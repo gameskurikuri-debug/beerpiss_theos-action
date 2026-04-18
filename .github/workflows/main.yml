@@ -1,12 +1,12 @@
 name: CI
 on:
-  workflow_dispatch: # これを書くと手動ボタンが出ます
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Build
-        uses: beerpiss/theos-action@v2.0.1
+      - uses: actions/checkout@v4
+      - name: Setup Theos
+        uses: themm69/theos-action@main
         with:
           theos_sdks: https://github.com/theos/sdks/raw/master/iPhoneOS14.5.sdk.tar.xz
